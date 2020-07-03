@@ -13,7 +13,7 @@ class Calculator {
     delete() {};
     
     appendNumber(number) {
-        this.currentOperand = this.currentOperand.toString() + number.toString;
+        this.currentOperand = this.currentOperand.toString() + number.toString()
     };
     
     chooseOperation() {};
